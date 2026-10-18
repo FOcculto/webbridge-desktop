@@ -219,3 +219,38 @@ Screenshots will be published after checking that they do not reveal personal ch
 - [GitHub Releases](https://github.com/FOcculto/webbridge-desktop/releases)
 - [Signed APT repository / Repository APT firmato](https://focculto.github.io/webbridge-desktop-apt/)
 - [Report a problem / Segnala un problema](https://github.com/FOcculto/webbridge-desktop/issues)
+
+
+---
+
+## Cronologia delle versioni / Version history
+
+### Versione 1.0.3 — 18 ottobre 2026
+
+Prima release pubblica di WebBridge Desktop.
+
+Funzionalità principali:
+- Client desktop Linux per WhatsApp Web.
+- Sandbox Electron attiva.
+- Profilo utente indipendente.
+- Apertura diretta delle conversazioni.
+- Condivisione di testi e collegamenti.
+- Integrazione con `xdg-open`.
+- Distribuzione tramite repository APT firmato.
+
+**Cronologia completa:** [CHANGELOG.md](CHANGELOG.md)
+
+### Version 1.0.3 — October 18, 2026
+
+First public release of WebBridge Desktop.
+
+Main features:
+- Linux desktop client for WhatsApp Web.
+- Electron sandbox enabled.
+- Independent user profile.
+- Direct conversation opening.
+- Text and link sharing.
+- `xdg-open` integration.
+- Distribution through a signed APT repository.
+
+**Full version history:** [CHANGELOG.md](CHANGELOG.md)
