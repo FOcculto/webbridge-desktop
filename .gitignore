@@ -1,0 +1,23 @@
+node_modules/
+dist/
+dist-custom/
+*.deb
+*.snap
+*.log
+*.bak
+*.backup
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+
+# Build e file temporanei
+build.log
+builder-debug.yml
+builder-effective-config.yaml
+*.AppImage
+*.blockmap
+dist-custom/
+dist/
+out/

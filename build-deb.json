@@ -1,0 +1,39 @@
+{
+  "appId": "org.webbridge.desktop",
+  "productName": "WebBridge Desktop",
+  "directories": {
+    "output": "dist-custom"
+  },
+  "files": [
+    "main.js",
+    "package.json",
+    "icon.png",
+    "LICENSE",
+    "README.md"
+  ],
+  "asar": true,
+  "linux": {
+    "target": [
+      "deb"
+    ],
+    "category": "Network",
+    "icon": "icon.png",
+    "executableName": "webbridge-desktop",
+    "syncDesktopName": true,
+    "mimeTypes": [
+      "x-scheme-handler/whatsapp"
+    ],
+    "maintainer": "FOcculto <focculto@gmail.com>",
+    "vendor": "FOcculto"
+  },
+  "deb": {
+    "packageName": "webbridge-desktop",
+    "artifactName": "webbridge-desktop_${version}_${arch}.${ext}"
+  },
+  "extraResources": [
+    {
+      "from": "resources/whatsapp-link-handler.py",
+      "to": "whatsapp-link-handler.py"
+    }
+  ]
+}
